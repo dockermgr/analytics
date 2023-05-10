@@ -314,7 +314,7 @@ HOST_NGINX_UPDATE_CONF="yes"
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Enable this if container is running a webserver - [yes/no] [internalPort] [yes/no] [yes/no] [listen]
 CONTAINER_WEB_SERVER_ENABLED="yes"
-CONTAINER_WEB_SERVER_INT_PORT="80"
+CONTAINER_WEB_SERVER_INT_PORT="8000"
 CONTAINER_WEB_SERVER_SSL_ENABLED="no"
 CONTAINER_WEB_SERVER_AUTH_ENABLED="no"
 CONTAINER_WEB_SERVER_LISTEN_ON="127.0.0.10"
@@ -422,7 +422,7 @@ CONTAINER_LABELS=""
 CONTAINER_LABELS+=""
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Specify container arguments - will run in container - [/path/to/script]
-CONTAINER_COMMANDS="ping -http=:80"
+CONTAINER_COMMANDS=""
 CONTAINER_COMMANDS+=""
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Define additional docker arguments - see docker run --help - [--option arg1,--option2]
